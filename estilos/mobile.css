@@ -44,6 +44,10 @@ main {
 
 }
 
+#formulario {
+    width: 255px;
+}
+
 h1 {
     text-align: center;
     margin: 5px;
