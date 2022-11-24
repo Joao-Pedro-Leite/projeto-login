@@ -18,14 +18,11 @@ Desktop: 992px até 1200px
 
 @media screen and (min-width: 768px) {
 
-                
+        body {
+            background-image: linear-gradient(to bottom, #172D40, #8C6111, #D99414, #F2BB16, #F2E30F  );
+        }
         
 
-        html, body {
-            
-            background-image: linear-gradient(blue, red);
-            
-        }
 
         main {
             width: 75%;
@@ -83,7 +80,8 @@ Desktop: 992px até 1200px
             font-size: 1.1em;
             color: #172D40;
             border: 1px solid #172D40;
-            margin: 5px 5px;
+            margin: 5px 1px;
+            width: 97%;
 
         }
 
@@ -94,7 +92,8 @@ Desktop: 992px até 1200px
             height: 35px;
             border-radius: 10px;
             font-size: 1.1em;
-            margin: 5px 5px;
+            margin: 5px 1px;
+            width: 97%;
 
         }
         
@@ -119,6 +118,10 @@ Desktop: 992px até 1200px
 }
 
 @media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #172D40, #8C6111, #D99414, #F2BB16, #F2E30F  );
+        }
 
         main {
             height: 55%;

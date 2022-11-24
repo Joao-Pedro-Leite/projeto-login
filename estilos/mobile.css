@@ -15,7 +15,9 @@
 
 html, body {
     position: relative;
+    height: 100vh;
     background-color: #D99414;
+    
     
         
 }
@@ -33,6 +35,9 @@ main {
     /* padding: 10px; */
     border-radius: 20px;
     box-shadow: 0px 2px 9px 0px black;
+
+    transition: width .3s, hight .3s;
+    transition-timing-function: ease;
 }
 
 section {
@@ -66,7 +71,7 @@ p {
 
 
 input {
-    width: 95%;
+    width: 100%;
     margin: 5px 0px;
 
 }
